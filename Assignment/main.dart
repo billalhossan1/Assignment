@@ -18,6 +18,7 @@ void main() {
     print("Miles Driven: ${car.getMilesDriven()}");
     print("Age: ${car.getAge()} years");
     print("");
+    print("");
   }
 
   print("Total number of cars: ${Car.numberOfCars}");
