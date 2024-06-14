@@ -21,6 +21,7 @@ void main() {
     print("Age: ${car.getAge()} years");
 
   }
-
+  print("");
+  print("");
   print("Total number of cars: ${Car.numberOfCars}");
 }
