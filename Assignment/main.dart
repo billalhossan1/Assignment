@@ -12,13 +12,14 @@ void main() {
   List<Car> cars = [car1, car2, car3];
 
   for (var car in cars) {
+    print("");
+    print("");
     print("Brand: ${car.getBrand()}");
     print("Model: ${car.getModel()}");
     print("Year: ${car.getYear()}");
     print("Miles Driven: ${car.getMilesDriven()}");
     print("Age: ${car.getAge()} years");
-    print("");
-    print("");
+
   }
 
   print("Total number of cars: ${Car.numberOfCars}");
