@@ -30,10 +30,9 @@ class Car {
   }
 
   int getAge() {
-    int currentYear = DateTime
-        .now()
-        .year;
-    return currentYear - year;
+    int currentYear = DateTime.now().year;
+    int age = currentYear - year;
+    return age;
   }
 }
 
